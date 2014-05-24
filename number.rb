@@ -19,9 +19,11 @@ elsif math_type == "division"
 elsif math_type == "multiplication"
   multiplication_result = number1 * number2
   puts "So #{number1} * #{number2} equals #{multiplication_result}."
+elsif
+  puts "I'm sorry, looks like you didn't spell one of the above 3 correctly.\nPlease try again."
 end
 
-
+# math_type != "subtraction" || "division" || "multiplication"
 =begin
 case math_type
 when "subtraction"
